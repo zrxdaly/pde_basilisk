@@ -1,0 +1,753 @@
+pristine:642da00dc872b6629c15a58d826ea4db5fa94cbc173830ac3dc0bc69c2b36c6a
+Starting with inventory:
+0000001440-5c3e4601a7f4641d9d4b755d181f3fd7f0ae70c9db50b99e3e8837599d4660d2
+[TAG release 22-04-07
+Stephane Popinet <popinet@basilisk.fr>**20220610174653
+ Ignore-this: 16b1ea720f26a0b524218eb30260f82f
+] 
+hash: 0000000977-9afcc6ab0650c128d970ab297135cebe8f67aa54337e2a8f7d2fd12604ab3821
+[Yacc grammar for Basilisk C
+Stephane Popinet <popinet@basilisk.fr>**20220126095201
+ Ignore-this: 6ae2145f9f7835b884b09d33bce37d4e
+] 
+hash: 0000035175-cf0fa4b146d33dd8147d84b5db21e24aa98dd666b36e6070d62148af88b5f35d
+[Yacc grammar does typedefs
+Stephane Popinet <popinet@basilisk.fr>**20220126120142
+ Ignore-this: 1524e17eaa5b9892cd4c5e6d1eabf05d
+] 
+hash: 0000003056-0c47937255f51cfad32b32eb12a129232076f70141d921b50432820d5311ff53
+[Added error tolerance to yacc grammar
+Stephane Popinet <popinet@basilisk.fr>**20220127110659
+ Ignore-this: f5ecf8c0c3146969ea23ea2e329e0658
+] 
+hash: 0000007292-02e3dda21b8c00b72850d72fd6b2efa7d1aea3b41009157326dfb1a9892bacaf
+[C grammar reference
+Stephane Popinet <popinet@basilisk.fr>**20220204111345
+ Ignore-this: 5476b174633f85ec1ce72940396df435
+] 
+hash: 0000019166-65f97c29bf38ad40069436c2092301b637f973538d5ff3b635f23da30dee6c9c
+[Initial revision of yacc-based qcc
+Stephane Popinet <popinet@basilisk.fr>**20220127135118
+ Ignore-this: 680e016c4c2c48945f44e781368b8e2c
+] 
+hash: 0000022755-333b31d2f01fcf422d315c8c0dcfb3b12433cb8f1bff9ef18951e716cb3285f9
+[Bison/Yacc builds the entire AST
+Stephane Popinet <popinet@basilisk.fr>**20220128131532
+ Ignore-this: 5594082363157d4217fb84f47cde6f9c
+] 
+hash: 0000019319-15e8012c5644dc8576750653522abc5a350bc9bb1963761660a583861883e7de
+[Source code buffer is split into substrings
+Stephane Popinet <popinet@basilisk.fr>**20220128145317
+ Ignore-this: 9d8efd06a7553c12d174e482386ac290
+] 
+hash: 0000002579-f98f7bec938f6ed5217f98018a7b93bb2b3891093427911f8c079675ab1d1a5f
+[Code transformations use full AST
+Stephane Popinet <popinet@basilisk.fr>**20220128210259
+ Ignore-this: c44d72520e67648bc32fa09286a82ac4
+] 
+hash: 0000010010-44e85ce9b2e197d5ef9060f7e876b844aa4ac2b8b95aa016445da8f44fc4560b
+[Various bug fixes for qcc/yacc
+Stephane Popinet <popinet@basilisk.fr>**20220129114904
+ Ignore-this: 5e96da5eeb7023b71c57daa3333071cf
+] 
+hash: 0000007896-5c45b94a45abaf1339936718c2c795e7598ef4f068c1b51e11a671567c01d268
+[Improved and simplified allocator
+Stephane Popinet <popinet@basilisk.fr>**20220129134229
+ Ignore-this: 2ad436dab66f91554880ea0afc2b0557
+] 
+hash: 0000002941-a33d810289859804651e7e3115270d3aed2b6d121cf97b0f01096538dbc5765d
+[File and line numbers
+Stephane Popinet <popinet@basilisk.fr>**20220129154951
+ Ignore-this: b4aa6a3a447a7efd7b62f5eaee420dbc
+] 
+hash: 0000006434-c2bbe52a002075ecf25b184f44812d1d7efdb7302953a6bb0156993371d7c6b4
+[Renamed 'Node' to 'Ast' (for "Abstract Syntax Tree")
+Stephane Popinet <popinet@basilisk.fr>**20220129161741
+ Ignore-this: 72c4487dd6cc5f58a57598401314d369
+] 
+hash: 0000022810-a05fd5e55fef09183d2f1d8d2b96c74326310acad1ae4266c7aacb790e0b1ca0
+[Differentiates between terminal and non-terminale AST nodes
+Stephane Popinet <popinet@basilisk.fr>**20220131085720
+ Ignore-this: 26e2770dd1d33986c9f3072af86b6e6
+] 
+hash: 0000244754-4838ffa237ad1c78a79dc55b26d036954b9ca08f936dfeb86968f9e2b0686b30
+[Return from trace
+Stephane Popinet <popinet@basilisk.fr>**20220131164408
+ Ignore-this: 104e3360f7b66f397a44cfb14bd7a679
+] 
+hash: 0000009320-fb2d152078dd4bd6fc269a8d74a45ecdb9d605bfae0a97795c07b12b5bb7aee3
+[Declaration stack
+Stephane Popinet <popinet@basilisk.fr>**20220201172745
+ Ignore-this: cc1cb6a3f12e80fd8429b5ef4ad9efa5
+] 
+hash: 0000147586-8bc2ed3be3133956081bb9f1c2ec83abefd73a105eaca8e5a703cd7197ace558
+[Stack-based parsing
+Stephane Popinet <popinet@basilisk.fr>**20220205100722
+ Ignore-this: e6a3de077de2abc5be6dc779d2ede24f
+] 
+hash: 0000186357-15b1673c53380204034a3bb4587a0f906712d12331edb9f315dc0729383555ec
+[Differentiates between typedefs and identifiers using "Lexical Tie-ins"
+Stephane Popinet <popinet@basilisk.fr>**20220206180009
+ Ignore-this: 123e1ad5278e7603038c56fb8a54d674
+] 
+hash: 0000191627-d88fbd2ee77798bd099b490e5b1ba156e8b42c8ddead903e7ea54db994109296
+[Use Allocator rather than malloc for AST nodes
+Stephane Popinet <popinet@basilisk.fr>**20220209113106
+ Ignore-this: 299ce9706e9e91811677a80ba22a1a5a
+] 
+hash: 0000014532-25760116778019644205fb15ca2f01db19e053e1229e51d355184b318706da95
+[Use stack typedefs
+Stephane Popinet <popinet@basilisk.fr>**20220214161246
+ Ignore-this: f375b0d928b202c2a5cd37a6abf867f7
+] 
+hash: 0000017469-7ba6451d0a4e9473fe9519f24c90839e0d8485b8a1ad1572ac73b63bb08ecbcf
+[Stencil access checks
+Stephane Popinet <popinet@basilisk.fr>**20220215122805
+ Ignore-this: 53b25fa8fecdbd66fc02ec5a50d11b16
+] 
+hash: 0000004354-05c1e0aa0e4115cd2edf997a38050516f7238ca7914def3ef2b6e018550ec045
+[Simpler nested foreach check
+Stephane Popinet <popinet@basilisk.fr>**20220215140355
+ Ignore-this: b9c9389d6ac3e7513e4ac68feb423bf3
+] 
+hash: 0000001268-1723404ff0e8f3e53a0dd999fe6ca7827500a4a087364edc37e081e0a9f5cc7c
+[Stencil accesses
+Stephane Popinet <popinet@basilisk.fr>**20220215171310
+ Ignore-this: 91d78e2fbcdc783dd0823e90bb89e2ee
+] 
+hash: 0000005817-8bcdd7b875a95af2d1ee7987f1ba9bfe3a39f1e55c42e5bea969d650e32da0fd
+[Stencil functions
+Stephane Popinet <popinet@basilisk.fr>**20220219114711
+ Ignore-this: 9a9c57a31591ccb9b87f1b3852766b25
+] 
+hash: 0000011429-90465c4cd2b24e21afdfbea2f2372378d76bb94d93569dafb135b8200a78c71d
+[Preliminary work for foreach_dimension()
+Stephane Popinet <popinet@basilisk.fr>**20220220163144
+ Ignore-this: 6257def11dc50eb5bc13c0e9ce9bba41
+] 
+hash: 0000015446-6bf1d1ebad882ddf9509ddd65407f1dedcc7a822e6c89216afc4e62aa05933ca
+[Translates foreach_dimension()
+Stephane Popinet <popinet@basilisk.fr>**20220225175551
+ Ignore-this: fd6360f9658d4931515dc764cdbd763d
+] 
+hash: 0000007092-2254c3201516b1219d652896ac278212cd71af607c68a1a03deb7000bf1b6a35
+[Attribute access
+Stephane Popinet <popinet@basilisk.fr>**20220227103814
+ Ignore-this: eac0b995913b95db8b3c02e652ad43a
+] 
+hash: 0000002928-5a99eb3fe73526279a2284646a4e49e31b84025e00d041c19bc706f90a6de3cd
+[Attribute declaration
+Stephane Popinet <popinet@basilisk.fr>**20220227115611
+ Ignore-this: 289a2e0a7db2d54752f787f869324adb
+] 
+hash: 0000002121-7e1972adb2fc46ee5262c81ed3c2a3e3e8341031c4e852260556a07fbe34ce39
+[External foreach_dimension()
+Stephane Popinet <popinet@basilisk.fr>**20220227142528
+ Ignore-this: 719f67dee289a47ae6a6f8b14a64457c
+] 
+hash: 0000104540-9c421196ac8b362e66a7ce574a78bbda7744a4d9b6a89d7967f024fa4574579b
+[Line numbers
+Stephane Popinet <popinet@basilisk.fr>**20220228103848
+ Ignore-this: c52bca88ce6cfcf03bb074587a3d3a90
+] 
+hash: 0000032160-d21f5abc46d00c36c028995b3ba7209398e52eabb995340c1cd97e4c57482fa1
+[Functions with optional arguments
+Stephane Popinet <popinet@basilisk.fr>**20220228154936
+ Ignore-this: c97752b529bcc8c1529f1e3ff0ea56cf
+] 
+hash: 0000008128-a72cedd868dd7783075a4e960810a3a268799e5e6f0bec2bf1fd6d1e1614985a
+[foreach_face() statements
+Stephane Popinet <popinet@basilisk.fr>**20220301090325
+ Ignore-this: 3e9bfd0095913ae80aed63e306cc536d
+] 
+hash: 0000006764-522b975f87462f3f2ef80e97ded3f1d8bc8d6aa8879ba7470644bf05ed7468de
+[(const) fields combinations
+Stephane Popinet <popinet@basilisk.fr>**20220301153808
+ Ignore-this: b450c874876a10c4ef57867e2b1268c0
+] 
+hash: 0000007740-f0ea9551e1269cf6a027b7c65b6d30cdf57d1a3f05a1d2da778bb93cd777a119
+[Forin statement
+Stephane Popinet <popinet@basilisk.fr>**20220301191016
+ Ignore-this: 2ddbbd674fdac1dd87d6ee11b78fcebf
+] 
+hash: 0000004109-d5e9bef445da2e761b0c2045bc08f4c46921c294a0b2d3ceb56a6d38b6db2329
+[forin_declaration_statement
+Stephane Popinet <popinet@basilisk.fr>**20220302090839
+ Ignore-this: 704aadae2fbf2877f0075541c51ef9ed
+] 
+hash: 0000100413-4918225455407162e0c321a33216b3b793403041f7f7c8a4dcf5ba37b7a0d777
+[Hide Basilisk C keywords
+Stephane Popinet <popinet@basilisk.fr>**20220302092548
+ Ignore-this: 5562a7cb3c542434d544020cdeb03e0e
+] 
+hash: 0000000555-1ea05d0ba85b1aae93beaf60b712874a8353c8b241116b058657ec113417463d
+[Fixed warning for unused fields
+Stephane Popinet <popinet@basilisk.fr>**20220302140910
+ Ignore-this: 40b9daeb2310dab720a95ba8891e2db6
+] 
+hash: 0000000466-541cbac0b8484ae7a509ec7ba97f7b01df45043a064a1b332a8f4665f4cf5a9f
+[Constant fields initialization
+Stephane Popinet <popinet@basilisk.fr>**20220302153509
+ Ignore-this: 7fbc55b675028915e1d61e83d306bd0a
+] 
+hash: 0000007788-dc5620f5584845cd1406ddffed61241df098bb00e0a9fe0b62f73b80cd7e9e01
+[Point point
+Stephane Popinet <popinet@basilisk.fr>**20220302153747
+ Ignore-this: 2f983b03074aa72a2e81d51b16d603a3
+] 
+hash: 0000001184-06fa05b67149ea36c0310466b23a307e6907c77cda899401aa7867d7900c0b81
+[Field lists
+Stephane Popinet <popinet@basilisk.fr>**20220303125148
+ Ignore-this: 312c3da940c3c7f445e1e57c290b40df
+] 
+hash: 0000227737-0a9fedaefc18309d7cb1bda55e55e9b1186f8cc37c2d1802e7fec13cb2e4d2fd
+[Fixed 'vertex scalar' type detection
+Stephane Popinet <popinet@basilisk.fr>**20220303141556
+ Ignore-this: 2ad0130a9bc2b1c9bca4e65c86b592c4
+] 
+hash: 0000003798-4f772bdf27c9c35b82cf9e0d75aed4f88387f3c88fa68d1336a02cfb74800244
+[Field declarations
+Stephane Popinet <popinet@basilisk.fr>**20220303160432
+ Ignore-this: 57dce791bb70ec20ce6a17257dff73bd
+] 
+hash: 0000006897-a81bc9af939d0e02e33ad6a9db4d55b58aa4192790b821268ef0d2733e3a6fa4
+[Fixed argument rotation is 2D
+Stephane Popinet <popinet@basilisk.fr>**20220303165637
+ Ignore-this: a206fced18233915d812331012a0eea4
+] 
+hash: 0000000301-6b34c7c242e2af1a5ab7b32d16bfdc97744596230841c5ba1f7c72d9b9c7f500
+[Macro statements
+Stephane Popinet <popinet@basilisk.fr>**20220303180205
+ Ignore-this: ee313ebf30aef0c0881936b2405ddbba
+] 
+hash: 0000000841-435e4086c6d336a6dba69b3c5a4a9e999c5e845840dbd510bb5197372cb4c43f
+[Fix for maybeconst combinations of vector fields
+Stephane Popinet <popinet@basilisk.fr>**20220303181128
+ Ignore-this: cbd4fc38d007b212e9584cb5d6f5402
+] 
+hash: 0000000520-b08e49fda3431ede7af2f138feca85c6ac4bc0a2b9e660932cc4a18954cdd5a1
+[Breaks within foreach_inner loops
+Stephane Popinet <popinet@basilisk.fr>**20220304100323
+ Ignore-this: fb976abdb42a9d3b3db6baa9f7f63be2
+] 
+hash: 0000000820-492bd33c9e1420c1bb96787e4146be5b0753fe96e7c0e1694af9bd633166b1d9
+[New fields
+Stephane Popinet <popinet@basilisk.fr>**20220304112638
+ Ignore-this: 49025a91fb8b53c62707c303c7be3b29
+] 
+hash: 0000003326-abf4365086818be280dcd8a80d644b47b6bb1ecd23c1aa1571d6475cf31855b9
+[Added basilisk.h
+Stephane Popinet <popinet@basilisk.fr>**20220304112759
+ Ignore-this: e92bffff28e692f736cdb5ca69207275
+] 
+hash: 0000006881-066ad3d2dde63d2beb1f58d740b3ca78f46a3fb27a717be3e60d4d8e8137ae79
+[Automatic fields
+Stephane Popinet <popinet@basilisk.fr>**20220304145953
+ Ignore-this: ebddeed80024c1fa119260f8dfb99e54
+] 
+hash: 0000012533-bda6baa233960a45df423ab08ea5821648393f4d678e4c86df8a6f3e29543f4e
+[is_face_x()
+Stephane Popinet <popinet@basilisk.fr>**20220304155626
+ Ignore-this: 5644333a01929d94ca7a38e0e641af3
+] 
+hash: 0000001221-6003ffb1b0d39f41b4d349c878073b25c7612b5184439f973de5ad280f8f1038
+[Rotations for right, left, top, bottom etc.
+Stephane Popinet <popinet@basilisk.fr>**20220304160135
+ Ignore-this: e22107e46ae6d4ea8edc099b696c4a5c
+] 
+hash: 0000000749-e47cf3751c31beeb829499153799114568cd00e761d5230117d94fd3526c3505
+[Cleanup of list append
+Stephane Popinet <popinet@basilisk.fr>**20220304185449
+ Ignore-this: 66d3c88df3a30e835e1564fc5018ce82
+] 
+hash: 0000000969-9ab2336c0733d278fda931f72d6549ad21cc1e27cee8cb835b342632d7d5074f
+[init_solver()
+Stephane Popinet <popinet@basilisk.fr>**20220304193642
+ Ignore-this: c63beffb2b125ba2b288d2dc8d244a2
+] 
+hash: 0000006516-93aa9f3da66a8bd2747a872937e6baf7b502c38d1db47849f89140cb42ac2e3f
+[Simplified child replacement
+Stephane Popinet <popinet@basilisk.fr>**20220305164625
+ Ignore-this: 8d2b6dfce39b77beb652035166a2ca3b
+] 
+hash: 0000012864-a86a101555bea86d0b826a1ec1ec46cf14ad849f9c4837cbdc66312ce756b1c6
+[Simplified file name allocation
+Stephane Popinet <popinet@basilisk.fr>**20220306105341
+ Ignore-this: 7b2fa390750b549a4e2e4be47e94683e
+] 
+hash: 0000002670-a782a722f1a055a2fb7393bb50d80eb0864584ce82e5482d56794df1e60c31ef
+[Field lists need extra parenthesis
+Stephane Popinet <popinet@basilisk.fr>**20220306162724
+ Ignore-this: e2f3c9dcfa9c3adf28cd21ace359ae30
+] 
+hash: 0000000402-70974118d653d4361b710a3a7bf94b6bd98255e7f8e4527b6081fa300f5b6669
+[Events
+Stephane Popinet <popinet@basilisk.fr>**20220306182708
+ Ignore-this: 6eef6ff34fb7d349150638d61591d80a
+] 
+hash: 0000124084-f4a19b12635e202bec3af9c79ddad609449951c2082b228245e8c66bb3f5073b
+[Automatic field allocation and deallocation
+Stephane Popinet <popinet@basilisk.fr>**20220308144525
+ Ignore-this: 53e68aa791f86c513bb051055de3217
+] 
+hash: 0000020990-a6fa57fab5f83231b8de762ebee375cd43c4a60a916be8dacb5e05be4a1a8386
+['serial' keyword
+Stephane Popinet <popinet@basilisk.fr>**20220309161635
+ Ignore-this: 78902ec8aeb6dad4fe84e1a82046084d
+] 
+hash: 0000002760-ce102d56afad934b0c51241f33e656410f22552ef7c118f89d2b863db93d9da9
+[Solver initialization and termination
+Stephane Popinet <popinet@basilisk.fr>**20220309180520
+ Ignore-this: fb6ceabaf461cfbd7fcb8e3efca348be
+] 
+hash: 0000002802-13db5ac496d1812668901c15682d5b0d50fd04c5356d712d7eeceb07cf0aa345
+[Replaces '# line' with newlines when possible
+Stephane Popinet <popinet@basilisk.fr>**20220311085908
+ Ignore-this: 337efa5ef6d442f597e70f2e16fd853b
+] 
+hash: 0000000464-284e03e37890a5432c27c3ef0797a639c6c45bd93330632103eb054439e1eb10
+[(const) fields combinations for Point functions
+Stephane Popinet <popinet@basilisk.fr>**20220313160943
+ Ignore-this: c4fce313fc33c7f3434b3c19c493493e
+] 
+hash: 0000009875-86a95923ed5090bfd8d9516c97783f3a4cab920484a947710db3053655718a57
+['nolineno' option
+Stephane Popinet <popinet@basilisk.fr>**20220313161910
+ Ignore-this: da54e1e8b7fa9b199af199066e09f28f
+] 
+hash: 0000002051-7ec8c55a7ba19b9e9af03feb383155a1d410b52b6ada2d876634e2dd09734587
+[for in type cast
+Stephane Popinet <popinet@basilisk.fr>**20220313170145
+ Ignore-this: 88b2eba51d74b5754047e5a4f5c90111
+] 
+hash: 0000000707-23b4c87d92d88b642fe29aa06e292b0986721cfef7a3ea1c33d0b991e5b9cc1c
+[Integer buffers were too small
+Stephane Popinet <popinet@basilisk.fr>**20220313171232
+ Ignore-this: 9b8b4d8fc33d17636b221ca94c7db837
+] 
+hash: 0000001008-2aaf35e262b2469eb254cc2b113ebd1539dcfb6f7ba14c02cae2a1d2f0b4cf89
+[External/global field lists
+Stephane Popinet <popinet@basilisk.fr>**20220316085443
+ Ignore-this: 9953a38b09e8bc38b06ab8cc3406ca2
+] 
+hash: 0000008361-c269db24505eda83d8b58a3483860a3e21156eb3bb3952557bf8bc3f374d990c
+[Call methods()
+Stephane Popinet <popinet@basilisk.fr>**20220316090718
+ Ignore-this: 6a9860967b70b1541d23fae81e05254a
+] 
+hash: 0000001692-e2cc22179f6db205a666b2ba37705ab0e1862552c280fc78eb24d093d7702251
+[Fix for (const) field declarations checks and for ... in loops
+Stephane Popinet <popinet@basilisk.fr>**20220316095855
+ Ignore-this: 710f4667207673c4768b10abb13b7a25
+] 
+hash: 0000000714-7bcd28168949eafdcb759035d9dba73c773ec86ff1326abc592473136b158cdb
+[Calls to functions with optional arguments without any parameter
+Stephane Popinet <popinet@basilisk.fr>**20220316100231
+ Ignore-this: 7aff33c4d5eb8c8f9c1d2ab02b1fa878
+] 
+hash: 0000002588-9b26b0b285c27fead5e2e19942fcaa4a74eea74fd10995243eb794fdf8cf84d4
+[Warnings for Basilisk C parse errors
+Stephane Popinet <popinet@basilisk.fr>**20220316100257
+ Ignore-this: c3f494a62f59a1408854b71e4440ea9a
+] 
+hash: 0000000585-f2abf7de67c53a1ca880d1e4d7298680b6ce00f198ce153513063337468d2c2b
+[foreach_block* are inner loops
+Stephane Popinet <popinet@basilisk.fr>**20220316100321
+ Ignore-this: 8ef3c4085dee5708f4972cc4a73aae68
+] 
+hash: 0000047214-6e5477f9bf374d1f0de244d194697e5ab5c3cca421bbbf390cf2e9172dacb617
+[Fixed scope traversal
+Stephane Popinet <popinet@basilisk.fr>**20220318143115
+ Ignore-this: 893f907993f667610df35769be093b46
+] 
+hash: 0000000803-e677a0c0f86f69b4d7db9dbd277d8a2efee5804cac3bb6132bb2d72c838a4b71
+[Higher-dimension vector field components are set to zero
+Stephane Popinet <popinet@basilisk.fr>**20220318153414
+ Ignore-this: 4e555ae9c96441ec5742c68994aff39
+] 
+hash: 0000001301-0200d245760ddb53bbcee050bc931d5b63ee7f9ec309f01d015a96ba0cdbaacf
+[Fix for missing arguments in child()
+Stephane Popinet <popinet@basilisk.fr>**20220320115343
+ Ignore-this: 13cf8706c745b13d5374d7927ee95f91
+] 
+hash: 0000000278-9a68729c9b1b822df6572fcc2a4efd49a84273da017e311594f093fe4345f993
+[Fix for events with array arguments
+Stephane Popinet <popinet@basilisk.fr>**20220320115414
+ Ignore-this: 755d6754ed0f83c13bdfa5b8eff33d95
+] 
+hash: 0000000742-6c8ac2d38d2e490183dc5d28496aa1280b0e7ccc4b744b495c0c10e3b4edc9c3
+[Boundary conditions
+Stephane Popinet <popinet@basilisk.fr>**20220320172514
+ Ignore-this: 26e55dc41124e6541d647a7a28991ac1
+] 
+hash: 0000009402-ac72322cefa21ffebf7094be134d67b8d8d2d0937363d5700e93571d1628071f
+[static FILE *
+Stephane Popinet <popinet@basilisk.fr>**20220407145037
+ Ignore-this: e7320a4abb0beb86f91c56ba25d8e182
+] 
+hash: 0000001656-190d6578ced4b8d57de3c3cfbd9d7b9e9d7d569c7e6a3d464f1947077da343b9
+[The "last" property of events must be inherited
+Stephane Popinet <popinet@basilisk.fr>**20220408102807
+ Ignore-this: cd9fb4c273c71207c7dd232f26e97aab
+] 
+hash: 0000000916-9d580ed2ec820c39983f8d5dc328354a038a565f95da2d01fce6154f66e3716f
+[Layered fields allocation
+Stephane Popinet <popinet@basilisk.fr>**20220410090754
+ Ignore-this: 22068b357c97246b8cca9022b68cb67e
+] 
+hash: 0000148258-23c23944205e950a673a4ec24fe820538def13d922d60609d3e7ccc6267d2b45
+[diagonalize()
+Stephane Popinet <popinet@basilisk.fr>**20220410090912
+ Ignore-this: 154759aa0d2c742a0551523ee75eee61
+] 
+hash: 0000001584-874ac8c666dd194dfee40b6b00980c7a80c1d421713d66bee6ace9e7f62289a7
+[higher dimension access to tensor fields
+Stephane Popinet <popinet@basilisk.fr>**20220410091033
+ Ignore-this: 45a97010b9fd797138a31aa05d283f8a
+] 
+hash: 0000002192-c29d59dfa6eefe4d0de946a8d51a6be8b2a3c0e1e450628b580fbb10c190e548
+[Fix for struct parameters and variable arguments function calls
+Stephane Popinet <popinet@basilisk.fr>**20220410091133
+ Ignore-this: ac22d9125be64931ac81ccb59e36faa8
+] 
+hash: 0000000635-d1209e3c29e06ce5057da96f11e6af6457cae63892fab426762e1c833e6b22e7
+[foreach_block_inner()
+Stephane Popinet <popinet@basilisk.fr>**20220410091240
+ Ignore-this: 2f4137cb76c125169b7dbb3c7354b62e
+] 
+hash: 0000000447-9426d1e2ac893015cb66a48ddde4110afb3daeedb0329b9c8d99cddc31319d6b
+[qerr and qout (obsolete but for backward compatibility)
+Stephane Popinet <popinet@basilisk.fr>**20220410091323
+ Ignore-this: 38c521ac360c427c18a108a006d11735
+] 
+hash: 0000000270-0c32b7d20fc2463fe36a72e849de1ddfea0597dc7bde5063f68e3e0695d39886
+[Rotation in one dimension
+Stephane Popinet <popinet@basilisk.fr>**20220410091513
+ Ignore-this: cdb325538e9025ed996e826999074f08
+] 
+hash: 0000002255-169b094c2eccbb56a162a7cd303b2a065542405fc1cd856d940bdc96b6d5f66b
+[Access to .n, .t, .r components within boundary conditions
+Stephane Popinet <popinet@basilisk.fr>**20220410092115
+ Ignore-this: aad2d62f99fbd4892c1b7c3a30be8e58
+] 
+hash: 0000006064-d23a52996c99e00d4766bcf70af3894dc476672fe62b92667007005c9e38e5ba
+[Multiple fixes for boundary conditions (qcc)
+Stephane Popinet <popinet@basilisk.fr>**20220411151603
+ Ignore-this: 1623b6d65cfa1e08e5d7b956d32457e1
+] 
+hash: 0000005644-8ca0856610b415d4c1f1c0b414c79fc6d90cda4dbbbf1e56a083760296eba14f
+[Macro statements
+Stephane Popinet <popinet@basilisk.fr>**20220411151721
+ Ignore-this: 8754c4f7236e0c8b6021e3797e81722d
+] 
+hash: 0000001453-23576f2d80878940986e836ea5197fb53e4859ffaad29974f0e67b227a507f42
+['first' event keyword
+Stephane Popinet <popinet@basilisk.fr>**20220411151739
+ Ignore-this: 485939a2fc740b68e8d3b8069ff1a90b
+] 
+hash: 0000000477-b71c65daf136c514d21731bc6072f7e34ad5fd36b2e3743a2ebfa0f545a5e9ab
+[References to global constant field indices.
+Stephane Popinet <popinet@basilisk.fr>**20220411151916
+ Ignore-this: 4965407b7be2eaa8ce77fc5f0987ddbe
+] 
+hash: 0000000981-54c89429a8dfea54b6a955ecb4e235f34fcdf1fddc8dd0cad385f5fb1f76bace
+[Restructured constant fields combinations
+Stephane Popinet <popinet@basilisk.fr>**20220411152310
+ Ignore-this: 876eec5e3d3fe6a12d1c1531d4854dee
+] 
+hash: 0000002673-eca352d5c800e2e7308903735035ef030863061f8ef737dee8c085e7e1331c01
+[Allocation of symmetric tensors
+Stephane Popinet <popinet@basilisk.fr>**20220412093442
+ Ignore-this: 91fbb3fb1fb0217b95969575b237da5f
+] 
+hash: 0000057092-d936fa48483f7c0570d8a42c3a0caed4e1dbf6000f54d0dcda743a2cf8c2a681
+[Basilisk C tolerates empty arguments in function calls
+Stephane Popinet <popinet@basilisk.fr>**20220412095507
+ Ignore-this: 213b90547daed64465d5a47941d42ef5
+] 
+hash: 0000034186-d57e8c6c1e0138feb48f73661048cad3c433987ccd9cf2e3d16a2b18c1711548
+[Maps
+Stephane Popinet <popinet@basilisk.fr>**20220412154613
+ Ignore-this: 983c01ca17f8daf9c75f03980cbc62c8
+] 
+hash: 0000133651-a643561fae3c8f7a2f255fd717f43a44578cd6f1aa1e745e01b4bd5b2af14639
+[New 'maxdepth' option for ast_print_tree()
+Stephane Popinet <popinet@basilisk.fr>**20220413133057
+ Ignore-this: 8f211c3d348f5b84b1cb1f75ef375bd4
+] 
+hash: 0000001066-20b93b5761a46b757296c562f57f9d282f3403445ac8296b316618a97d6ad5ce
+[Various minor fixes for qcc
+Stephane Popinet <popinet@basilisk.fr>**20220413133216
+ Ignore-this: 8beddc529b1fd4404cc3f8eafa545fd9
+] 
+hash: 0000142290-e6121f0006063dcb511ebf8ef7431b7fe0e455e5e2ec8e31e90b25d26c9f076a
+[Constant field stencil access
+Stephane Popinet <popinet@basilisk.fr>**20220413162657
+ Ignore-this: 52e32009cd2f5013d2e1360849408a00
+] 
+hash: 0000001365-f7c6fe064f26d7172426aa230ed13a1e0993e29bd24b4f9f598f7939a661b2e0
+[Reductions
+Stephane Popinet <popinet@basilisk.fr>**20220414074745
+ Ignore-this: 719c0a3223ba47691dd1e0f96f8ec8c8
+] 
+hash: 0000120588-a118a133582a64a84fe65bac26470554b5071a14fb40924e94d53d331b919442
+[Fixes for boundary conditions
+Stephane Popinet <popinet@basilisk.fr>**20220415180846
+ Ignore-this: e43bcc1f5608f33fd5daabcab03347a7
+] 
+hash: 0000001516-2cd144a2b7bdc0aa2e802b670566f43bc1c3e1b7c3d8fd412d164db3200f40b3
+[Fix for stencil access to const fields
+Stephane Popinet <popinet@basilisk.fr>**20220416121742
+ Ignore-this: e0ab25ec615fdb7eee849123d2790ee5
+] 
+hash: 0000001184-82081c0fbdc079de831c15ce1343e06a3036a29b841822282aa8f7a9ad50d3c6
+[Fix for unused warning of constant fields
+Stephane Popinet <popinet@basilisk.fr>**20220416123818
+ Ignore-this: 36eb8196a68d2cb1c5ee6d9f6fbe2416
+] 
+hash: 0000000242-93c7ed9db3c6450330f3debe27531c6c742641a950d4e2b8cd72afff17e76724
+[Fixed memory leaks in qcc
+Stephane Popinet <popinet@basilisk.fr>**20220416131322
+ Ignore-this: d3d31e896d724afb8eba05039d675c44
+] 
+hash: 0000000806-059483e5cdeb6b8965110627459165049636cc44923f9b5a3c04e17b30d80e6c
+[-catch and swig options for qcc
+Stephane Popinet <popinet@basilisk.fr>**20220416143234
+ Ignore-this: c491ecf72a3b9ecf0782e500070fcc3a
+] 
+hash: 0000001782-443db2ca9f4015ee2fb372007c6f333ee049ce95311c770da4b02746b13c45eb
+[Fix for typedef name in function parameters
+Stephane Popinet <popinet@basilisk.fr>**20220416155811
+ Ignore-this: d6601f74e2bb087d1ca0d972c52f3ca0
+] 
+hash: 0000156964-a1a0852f9fcf717b542de7b37e6749bee090b4a01af783799c8706e398dd1e73
+[Cosmetics
+Stephane Popinet <popinet@basilisk.fr>**20220420082756
+ Ignore-this: f6dc44d8dbe7cb9f792d254588122864
+] 
+hash: 0000000516-3d01741dca1203ea4bea17bed202b1af57e1157df2219da03eb25484a7badf85
+[Grammar checker
+Stephane Popinet <popinet@basilisk.fr>**20220421124553
+ Ignore-this: f5cdd6ca28feb970c5a419847f46c13c
+] 
+hash: 0000002848-a4e9004f44d2cc0d35ea2e8af51c773b42d63e663c477fbcccd926a4c4f555f4
+[Automatic boundary conditions
+Stephane Popinet <popinet@basilisk.fr>**20220421170629
+ Ignore-this: 9fa844bd3728dd91ca5eb9bdda988924
+] 
+hash: 0000020870-97b344932ee2ae145154f0cd427cc8695cda54cab90fae09a7ebc5986f19f92a
+[Fixed grammatical errors
+Stephane Popinet <popinet@basilisk.fr>**20220422160410
+ Ignore-this: b945aac5074de5757c2c3d911fe98bba
+] 
+hash: 0000130199-3d6373e7ffc49f463f8e8d67e4403cc85d8be7b362b2063107db920bfae2cecf
+[Fixed grammar for initializion lists
+Stephane Popinet <popinet@basilisk.fr>**20220425095916
+ Ignore-this: e99c0da152540a5abb35937f54cbd915
+] 
+hash: 0000000838-e42fb14cf87b605d8466aa9b57ca38b5cdcbdb50fa8aa9bcffe9d5796134e3f5
+[Pointers when tracing function calls
+Stephane Popinet <popinet@basilisk.fr>**20220425111724
+ Ignore-this: 3c16365a639bafb1dd89c6937a5e70bb
+] 
+hash: 0000000555-02940e25c7aec80aea6c14e7308861dd968e1a61451c22e00f641c529d9246c4
+[Automatic stencils
+Stephane Popinet <popinet@basilisk.fr>**20220429123839
+ Ignore-this: f228a0133e6058014b8554ed30ff387f
+] 
+hash: 0000041267-b81abc4ce0d7a75110c283cf19137ca7e5e9e4c2277c9969870aab6abc2fc38b
+[Automatic stencils completely revised
+Stephane Popinet <popinet@basilisk.fr>**20220509125137
+ Ignore-this: 52197b129f19e10556dbfe9ff8733182
+] 
+hash: 0000067542-b45cf59fafd422098db61a04c31634055adcbc5f4de4070245cc02b0b0f63d85
+[Cleanup of unused variables in automatic stencils
+Stephane Popinet <popinet@basilisk.fr>**20220513153703
+ Ignore-this: e097f345b605b96d1435b7581b232a4f
+] 
+hash: 0000023741-9875587477025ae9259dd04ec9e5b2e88a68803ca206df4ba574aaac1550ef7a
+[The new qcc respects the grammar for 'break' statements
+Stephane Popinet <popinet@basilisk.fr>**20220513170902
+ Ignore-this: 274bbad9064a6d555845f78a716d1bd5
+] 
+hash: 0000004015-7928ffa70685a1c6e88a034adea3dede9b5554d5907c719d563dd840e4d8e089
+[The new qcc is much more robust and does not require the previous tweaks
+Stephane Popinet <popinet@basilisk.fr>**20220517120432
+ Ignore-this: 9ac6568852fcaa861f1953f024b41bc7
+ 
+ Function pointers are allowed, reductions are not mandatory etc.
+] 
+hash: 0000009083-81f13a07b8675bc23bfffef053af5580ebe0224540dca9f84d56d17b1068616b
+[Updated spheres test case reference
+Stephane Popinet <popinet@basilisk.fr>**20220517121130
+ Ignore-this: 5565dd80e1dd612c4aa66709019525a3
+ 
+ The new qcc detects a necessary boundary conditions which was not detected before.
+ This improves the results.
+] 
+hash: 0000000438-226f7698c4dfcd64ec78b86231402ab77a9f70d422e373ac5dbbfcf59bf2cecf
+[Fix for (more) OSMesa floating-point exceptions
+Stephane Popinet <popinet@basilisk.fr>**20220517122143
+ Ignore-this: 3fcac08e75d382eb23dd6fab91171be1
+] 
+hash: 0000000376-0e63b9d22959bd6ed98bdbaee6e7ca1aa80942c57befe5bf7ef632cbaa111b5f
+[Typo
+Stephane Popinet <popinet@basilisk.fr>**20220517135539
+ Ignore-this: e094cad3ba02a1b3fcf06e6a777d5f4f
+] 
+hash: 0000000296-750a056bd866c8c922c1433696daab418d558e21e54b9ed9e4ed6e7b9a619dab
+[Missing reductions are now errors when compiling parallel code
+Stephane Popinet <popinet@basilisk.fr>**20220517153603
+ Ignore-this: b735c8c47b19bab6e330758a27b47dc6
+] 
+hash: 0000000686-b1a005a00fb8d67e2767c28f07ae7f796bd3a816837c4d82cc3094dbb909f343
+[Adaptations for the new qcc
+Stephane Popinet <popinet@basilisk.fr>**20220517160706
+ Ignore-this: 245099a8db9cbc5626b72271e92cc559
+] 
+hash: 0000026702-62397a4b92a9f6a6eb5cda644f72818f725a109f9903167c974b0719862cd2d4
+[New qcc uses AST
+Stephane Popinet <popinet@basilisk.fr>**20220517164354
+ Ignore-this: 56f0af40958da75936cc0e72bbde9e0d
+] 
+hash: 0000400900-aade9477da8fe8f90a58547a44a3d91f024611f54445f72f16a03eafae9cc684
+[foreach_visible() uses stencils
+Stephane Popinet <popinet@basilisk.fr>**20220517164453
+ Ignore-this: a00db8e00a195c03eb2f2ee19a972d7a
+] 
+hash: 0000001249-fb4efe3debe5f8bd83738f520e344debafe84b358b01d1c3af4bc115cf51503c
+[Support for 'complex' in Basilisk C grammar
+Stephane Popinet <popinet@basilisk.fr>**20220518082427
+ Ignore-this: 56f6a105064d6ea9e529a61b2ad00d87
+] 
+hash: 0000054340-8eb2a51b76f9c2765ef4886d9edf84aadfc2615129c74b007baf7258bc8cc70f
+[Take into account the parent foreach for point functions checks
+Stephane Popinet <popinet@basilisk.fr>**20220518082541
+ Ignore-this: 7a824dffd01292fcbe48f175e6334d51
+] 
+hash: 0000001532-06377d51af629afa67abb93d58ac55e2f91a65d67dcd4da7ac166ce135cec815
+[The "noauto" option can be useful in some exceptional circumstances
+Stephane Popinet <popinet@basilisk.fr>**20220518082902
+ Ignore-this: b5a37c40ed4ef4be9c1e437b986b2a13
+ 
+ Here to avoid a recursive call inside the tree implementation of
+ boundary conditions.
+] 
+hash: 0000001155-8eee05d6497073ae420bf127ecce40495aad423152eaa000e0d0deebb96361a5
+['in' is not a reserved keyword anymore
+Stephane Popinet <popinet@basilisk.fr>**20220518111024
+ Ignore-this: 7fb0acf665c8367a384d7dd8d826faee
+] 
+hash: 0000152333-d0e5a5234532e573fe218cf75ffca87e3b73ebcba8bedfdfc838338d24601eeb
+[All header files are parsed, system headers excepted
+Stephane Popinet <popinet@basilisk.fr>**20220518111723
+ Ignore-this: 61e38550a91a55ccb22dce711f0d57e0
+] 
+hash: 0000037705-5808375636d1b8a42d97f2e5dd9dc9f2441c0d64a6c667d007966f25c87fe712
+[Stencils check for overflow
+Stephane Popinet <popinet@basilisk.fr>**20220519071342
+ Ignore-this: 89a509b98f3c27b17479cda0172a0c6e
+] 
+hash: 0000005142-f8301ea8c0a9e3057e1c38aed116e13cb7a382ce7b58a0cd7eaf00d1b01fad3e
+[GCC option to show only line numbers
+Stephane Popinet <popinet@basilisk.fr>**20220519073253
+ Ignore-this: cc0efda18edebc25f033b94874933ebb
+] 
+hash: 0000000333-4702820516e883e7aa4cb511293f78bae03f0c71545d9ac2590cfef8373db56a
+[Cosmetics
+Stephane Popinet <popinet@basilisk.fr>**20220519125438
+ Ignore-this: cd1476b28561782d3c6664a5fe15ed3
+] 
+hash: 0000000212-37afa0b90a26058d10fd734a0643527874b879bb0db9332f7e85ecf482fcceaa
+[Rarely used option to remove stencil warnings
+Stephane Popinet <popinet@basilisk.fr>**20220519131246
+ Ignore-this: e9c4c05c8e73cecd870cc5b4846cf9e
+] 
+hash: 0000003549-29e8c1a983cbd4cbd2b3f62fb5abd6d849a20cd3df4161a549f6f1700575520a
+[Fix a MPI lock bug with `wavelet()` and `inverse_wavelet()`
+Antoon van Hooft <J.A.vanHooft@tudelft.nl>**20220519134340
+ Ignore-this: d1cf0cafe012610164cf5c0a4ed77d05
+] 
+hash: 0000000435-deedcbe463d86a538e63bcd47af3271f74c20086ed6f6381365ccb121e591192
+[Documentation for the new Basilisk C preprocessor
+Stephane Popinet <popinet@basilisk.fr>**20220610172420
+ Ignore-this: 5f23837970cf75c718d3d8efdf900ede
+] 
+hash: 0000019619-51001c4cc8e48d5dd04cfb77ff4ba320e5324b4815646dad9e08ba2372b4ebcd
+[Symbols are required
+Stephane Popinet <popinet@basilisk.fr>**20220610185305
+ Ignore-this: b431752008455d6ac4ffcb204743876a
+] 
+hash: 0000013238-43b7a4419f6b7512cafe041fc6a9f11e9cb1245486803cdacd0c46a83bceff64
+[Documentation for rotation test
+Stephane Popinet <popinet@basilisk.fr>**20220610182433
+ Ignore-this: fa4898dd233372c1c72e998c841c92b1
+] 
+hash: 0000002820-eae0e63fcd004f7ffce02f588b54571131981979628ea0a273754148ff6e38ad
+[Added <sys/stat.h> to AST system files
+Stephane Popinet <popinet@basilisk.fr>**20220615190823
+ Ignore-this: 53da4414141417aab51e046e9273cabd
+] 
+hash: 0000000231-c24a3d54a38f2a91fd83a1aceef8b62c06de6c40678be821ad21c71621fcbe9d
+[Fixed graph
+Stephane Popinet <popinet@basilisk.fr>**20220616211420
+ Ignore-this: e4f6dcbff5b1a519c4ab4ff72cce838
+] 
+hash: 0000000163-ebad3ff573cd953ec713908aadb5c1aabef8c9a90f45258824d9828b2df2b90b
+[Fixed wrong 'endfor' function prototype
+Stephane Popinet <popinet@basilisk.fr>**20220620094545
+ Ignore-this: 331d8f5f96cb0ab2ac0b6ce2d5b29458
+] 
+hash: 0000000835-65737784c8e4d49b05cb85f7b160c007b8012b07c2870ca8bf86b45bb79816df
+[Updated porous3D reference
+Stephane Popinet <popinet@basilisk.fr>**20220624163741
+ Ignore-this: 5aee4c55db37219004c69cc968fd1410
+] 
+hash: 0000051533-55bab56dbf9f32ee82e8c56de62f9b99282a96eef12e3dd113311ac1a927378f
+['point' is a loop-local variable
+Stephane Popinet <popinet@basilisk.fr>**20220624155719
+ Ignore-this: 6238b51e40a2ac36cd74d03c86e5db61
+] 
+hash: 0000000235-971b37a8fee20dfe809950485dd1ae479a2af9deaca39197432d5eeb185da9ee
+[Updated installation instructions
+Stephane Popinet <popinet@basilisk.fr>**20220624155737
+ Ignore-this: c64c58c5264acb6c34ae7463e7c4c154
+] 
+hash: 0000000303-2f861a4429e5438c2861e245c1a94f9ded5bfe84211651083b45fd2e0508fab6
+[Boundary conditions are necessary for 'colorize()'
+Stephane Popinet <popinet@basilisk.fr>**20220624163702
+ Ignore-this: 3c2652cdf1f311b23de32fcb2925117c
+ 
+ Because automatic stencils are not applied to foreach_visible_plane() iterators.
+] 
+hash: 0000000292-e053ca9ed9410f4abdfa250b19b9a9e32395327e962aa22308d19697fc498829
+[Automatic boundaries are not perfect...
+Stephane Popinet <popinet@basilisk.fr>**20220625143536
+ Ignore-this: 6fb93c512d673100d69398a19537cc33
+] 
+hash: 0000000227-f73024b2cd81d37f393cb815a441c22c05580f089e80d800b6ba43ff2a02e47c
+[Empty List iterators were not recognized in stencils
+Stephane Popinet <popinet@basilisk.fr>**20220705114619
+ Ignore-this: 48b7499aa991070949bc31bb047cd0c2
+] 
+hash: 0000000227-e3b338e1d5b038f76a90ff1efe81819b3f86cec98c7d9b66cfc8007c2e637d62
+[Basic parsing error message
+Stephane Popinet <popinet@basilisk.fr>**20220715103752
+ Ignore-this: 662ac954e3cb802ecc7c662e0efabc89
+] 
+hash: 0000000285-3fec7108109660db55971a31e2c14bcafc574026d844cbb8ffbfd808ed426ce3
+[TAG release 22-07-05
+Stephane Popinet <popinet@basilisk.fr>**20220909150055
+ Ignore-this: f67de11e160d8b6914806f2582242e9b
+] 
+hash: 0000020456-266674e04fc3d25f82102c85260f7e56b593d0e88fc9a83060ae7ca3cae5bed3
+[qcc crashed when 'static FILE *' was used outside events
+Stephane Popinet <popinet@basilisk.fr>**20220909114235
+ Ignore-this: 451fa9e65a1bbf80e1427ce4a9646adc
+] 
+hash: 0000001751-732985cc9f22f12a1b4e74b95795a4781101f2ebe773b1c066f2fe7d91bde6ee
+[Stencils know about 'neighborp()'
+Stephane Popinet <popinet@basilisk.fr>**20220922084525
+ Ignore-this: fdb4e055847d6aeb5f57fa80ae68c779
+] 
+hash: 0000000981-b5f909a642f3e8ccb45d5e9ef96534a170de7c2744d320fd9527e690ea3f59bf
